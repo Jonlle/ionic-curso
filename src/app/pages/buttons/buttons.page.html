@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-buttons slot="start">
+          <ion-back-button defaultHref="/"></ion-back-button>
+        </ion-buttons>
+    <ion-title>Botones</ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-button size="small" expand="full">Small</ion-button>
+  <ion-button size="default" expand="full">Default</ion-button>
+  <ion-button size="large" expand="full">Large</ion-button>
+
+  <ion-button class="ion-margin-top" expand="full" color="tertiary" routerLink="/alert">
+    Anchor
+  </ion-button>
+
+  <ion-row class="ion-margin-top">
+    <ion-col size="6">
+        <ion-button class="ion-margin-top" expand="full" color="success" routerLink="/avatar">
+          Perros
+        </ion-button>
+    </ion-col>
+    
+    <ion-col size="6">
+        <ion-button class="ion-margin-top" expand="full" color="danger" routerLink="/acion-sheet">
+          Gatos
+        </ion-button>
+    </ion-col>
+  
+  </ion-row>
+
+  <ion-button class="ion-margin-top" fill="default">Default</ion-button>
+  <ion-button class="ion-margin-top" fill="clear">Clear</ion-button>
+  <ion-button class="ion-margin-top" fill="outline">Outline</ion-button>
+  <ion-button class="ion-margin-top" fill="solid">Solid</ion-button>
+  <ion-button class="ion-margin-top" fill="undefined">Undefined</ion-button>
+
+</ion-content>
