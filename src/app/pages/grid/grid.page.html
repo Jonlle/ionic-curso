@@ -1,0 +1,25 @@
+<app-header titulo="Grid Row"></app-header>
+
+<ion-content padding fullscreen>
+
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col size="12" size-lg="3" size-md="4" size-sm="6" *ngFor="let c of [1,1,1,1,1,1,1,1,1,1,1,1]">
+
+              <ion-card mode="ios" color="tertiary">
+                  <ion-img src="https://png.pngtree.com/thumb_back/fw800/back_pic/03/59/31/7657a429ac15ff7.jpg"></ion-img>
+                <ion-card-header>
+                  <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+                  <ion-card-title>Card Title</ion-card-title>
+                </ion-card-header>
+            
+                <ion-card-content>
+                  Keep close to Nature's heart... and break clear away, once in awhile,
+                  and climb a mountain or spend a week in the woods. Wash your spirit clean.
+                </ion-card-content>
+              </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
